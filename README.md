@@ -2,6 +2,10 @@
 
 Este é um sistema de gerenciamento de pedidos para uma lanchonete, desenvolvido como parte do Tech Challenge Fase 3. 
 
+### [Link Miro Tech Chalenge Arquitetura K8S](https://miro.com/app/board/uXjVKR4zMmM=/)
+
+### [Link do video no youtube](https://www.youtube.com/watch?v=Or8Q7udU5h4)
+
 O sistema é composto por uma API para gerenciamento de clientes, produtos, pedidos e pagamentos, implementada seguindo os princípios da Clean Architecture e utilizando infraestrutura escalável na AWS com Kubernetes, Lambda com API GATEWAY, e DocumentDB.
 
 Inicialmente foi corrigido os pontos sinalizados no feedback do Tech Challenge Fase 2:
@@ -130,7 +134,6 @@ Cada repositório possui workflows de GitHub Actions que:
 - **`DB_MASTER_PASSWORD`**: Senha do banco de dados DocumentDB.
 - **`DB_URI`**: URI de conexão do banco de dados.
 - **`PAGSEGURO_AUTH_TOKEN`**: Token de autenticação para o PagSeguro (se aplicável).
-- **`MONGO_URI`**: URI de conexão ao MongoDB/DocumentDB para a Lambda.
 
 ---
 
