@@ -4,7 +4,7 @@ Este é um sistema de gerenciamento de pedidos para uma lanchonete, desenvolvido
 
 ### [Link Miro Tech Chalenge Arquitetura K8S](https://miro.com/app/board/uXjVKR4zMmM=/)
 
-### [Link do video no youtube](https://www.youtube.com/watch?v=Or8Q7udU5h4)
+### [Link do video no youtube](https://youtu.be/gQWF_ncrUnA)
 
 O sistema é composto por uma API para gerenciamento de clientes, produtos, pedidos e pagamentos, implementada seguindo os princípios da Clean Architecture e utilizando infraestrutura escalável na AWS com Kubernetes, Lambda com API GATEWAY, e DocumentDB.
 
