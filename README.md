@@ -86,6 +86,8 @@ Os dados da aplicação são armazenados no **Amazon DocumentDB**, compatível c
 - **Pedidos**: Informações sobre o cliente, produtos pedidos, status do pedido e pagamento.
 - **Produtos**: Nome, descrição e preço dos produtos disponíveis.
 
+<img align="center" src="https://github.com/CarlosLopes88/tech_challenge_3_fase/blob/520d73f550dcb7bae29dbf32446d6eaec72f6f67/estrutura_de_banco_de_dados_nosql_-_documentdb%20(1).png">
+
 ---
 
 ## 4. Order System App (Node.js no Kubernetes)
