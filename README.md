@@ -118,6 +118,19 @@ Cada repositório possui workflows de GitHub Actions que:
 3. Realize um `git push` na branch `main` para disparar os workflows de CI/CD e provisionar a infraestrutura e a aplicação automaticamente.
 4. O sistema estará disponível após o deploy no Kubernetes.
 
+## SECRETS a serem criadas caso queria transferir os repositórios:
+
+- **`AWS_ACCESS_KEY_ID`**: Chave de acesso AWS.
+- **`AWS_SECRET_ACCESS_KEY`**: Chave secreta da AWS.
+- **`AWS_REGION`**: Região AWS (ex: `us-east-1`).
+- **`AWS_ACCOUNT_ID`**: ID da conta AWS para empurrar imagens Docker.
+- **`DB_MASTER_USERNAME`**: Nome de usuário do banco de dados DocumentDB.
+- **`DB_MASTER_PASSWORD`**: Senha do banco de dados DocumentDB.
+- **`DB_URI`**: URI de conexão do banco de dados.
+- **`PAGSEGURO_AUTH_TOKEN`**: Token de autenticação para o PagSeguro (se aplicável).
+- **`MONGO_URI`**: URI de conexão ao MongoDB/DocumentDB para a Lambda.
+
+
 ## Estrutura de Pastas
 
 Abaixo está a estrutura básica da pasta principal do projeto:
